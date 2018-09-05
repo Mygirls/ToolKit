@@ -3,6 +3,13 @@
 
 这是一个简单的工具类
 
+本工具类支持cocopods，
+只需导入：
+
+pod 'MToolKit', '~> 0.0.1'
+
+即可
+
 这里面涉及到NSString、NSDate、NSCalendar、NSDateComponents
 
 对其进行封装，
