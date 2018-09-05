@@ -114,7 +114,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20179AA421377AF6008D0864 /* ToolKit */ = {
+		20179AA421377AF6008D0864 /* MToolKit */ = {
 			isa = PBXGroup;
 			children = (
 				20A586A7213CC73D00DCEB9D /* MCommon.h */,
@@ -142,7 +142,7 @@
 				20179AB421379618008D0864 /* UIColor+MCommon.h */,
 				20179AB521379618008D0864 /* UIColor+MCommon.m */,
 			);
-			path = ToolKit;
+			path = MToolKit;
 			sourceTree = "<group>";
 		};
 		204AC9432136817700C7788D = {
@@ -172,7 +172,7 @@
 				204AC9502136817700C7788D /* AppDelegate.m */,
 				204AC9522136817700C7788D /* ViewController.h */,
 				204AC9532136817700C7788D /* ViewController.m */,
-				20179AA421377AF6008D0864 /* ToolKit */,
+				20179AA421377AF6008D0864 /* MToolKit */,
 				204AC9552136817700C7788D /* Main.storyboard */,
 				204AC9582136817900C7788D /* Assets.xcassets */,
 				204AC95A2136817900C7788D /* LaunchScreen.storyboard */,
