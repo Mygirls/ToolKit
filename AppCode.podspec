@@ -26,11 +26,9 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   #描述
-  s.description  = <<-DESC
-                   DESC
+  s.description  = " 这是一个简单的工具类"
 
-
-  #项目的主地址
+  #项目主地址
   s.homepage     = "https://github.com/Mygirls/ToolKit.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
@@ -41,8 +39,9 @@ Pod::Spec.new do |s|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-
-  s.license      = "MIT (example)"
+  
+  # 
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -53,7 +52,7 @@ Pod::Spec.new do |s|
   #  accepts just a name if you'd rather not provide an email address.
   #
   #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
+  #  profile URL
   #
 
   s.author             = { "Majq" => "" }
@@ -68,7 +67,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -82,8 +81,8 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-
-  s.source       = { :git => "http://EXAMPLE/AppCode.git", :tag => "#{s.version}" }
+  # 项目地址
+  s.source       = { :git => "https://github.com/Mygirls/ToolKit.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,8 +92,8 @@ Pod::Spec.new do |s|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  # 路径
+  s.source_files  = "AppCode/ToolKit", "AppCode/ToolKit/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
